@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Underdog', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -17,25 +17,26 @@ header {
 }
 
 #nickname {
-    font-size: 48px;
-    color: #BB86FC;
+    font-size: 64px;
+    color: #64B5F6;  /* Мягкий голубой цвет */
     font-weight: bold;
 }
 
 .description {
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 22px;  /* Увеличенный размер текста */
     color: #A0A0A0;
 }
 
 .links .button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: #03DAC6;
     color: #121212;
     text-decoration: none;
     border-radius: 5px;
     margin: 10px;
+    font-size: 18px;
     transition: background-color 0.3s ease;
 }
 
@@ -49,7 +50,7 @@ header {
 
 .projects h2 {
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 36px;  /* Увеличенный заголовок */
     color: #E0E0E0;
 }
 
@@ -58,9 +59,9 @@ header {
 }
 
 .project h3 {
-    font-size: 24px;
+    font-size: 28px;  /* Увеличенные заголовки проектов */
     margin-bottom: 10px;
-    color: #BB86FC;
+    color: #64B5F6;  /* Мягкий голубой цвет */
 }
 
 .project .button {
@@ -70,4 +71,3 @@ header {
 .project .button:hover {
     background-color: #00BFA5;
 }
-
