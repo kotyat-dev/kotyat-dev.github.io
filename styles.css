@@ -17,15 +17,17 @@ header {
 }
 
 #nickname {
-    font-size: 64px;
-    color: #64B5F6;  /* Мягкий голубой цвет */
+    font-size: 128px;
+    color: #64B5F6;
     font-weight: bold;
+    text-shadow: 0 0 15px rgba(100, 181, 246, 0.7); /* Glow эффект для текста */
 }
 
 .description {
     margin-bottom: 30px;
-    font-size: 22px;  /* Увеличенный размер текста */
+    font-size: 22px;
     color: #A0A0A0;
+    text-shadow: 0 0 10px rgba(160, 160, 160, 0.6); /* Glow эффект для описания */
 }
 
 .links .button {
@@ -37,37 +39,68 @@ header {
     border-radius: 5px;
     margin: 10px;
     font-size: 18px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(3, 218, 198, 0.5); /* Glow эффект */
 }
 
 .links .button:hover {
     background-color: #00BFA5;
+    box-shadow: 0 0 25px rgba(3, 218, 198, 0.8); /* Усиление свечения при наведении */
 }
 
 .projects {
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .projects h2 {
-    margin-bottom: 20px;
-    font-size: 36px;  /* Увеличенный заголовок */
+    width: 100%;
+    font-size: 36px;
     color: #E0E0E0;
+    text-shadow: 0 0 10px rgba(224, 224, 224, 0.6); /* Glow эффект для заголовка проектов */
 }
 
 .project {
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    max-width: 350px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
 .project h3 {
-    font-size: 28px;  /* Увеличенные заголовки проектов */
+    font-size: 28px;
     margin-bottom: 10px;
-    color: #64B5F6;  /* Мягкий голубой цвет */
+    color: #64B5F6;
+    text-shadow: 0 0 10px rgba(100, 181, 246, 0.7); /* Glow эффект для заголовка проекта */
 }
 
 .project .button {
+    display: inline-block;
+    padding: 12px 24px;
     background-color: #03DAC6;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px rgba(3, 218, 198, 0.5); /* Glow эффект */
 }
 
 .project .button:hover {
     background-color: #00BFA5;
+    box-shadow: 0 0 25px rgba(3, 218, 198, 0.8); /* Усиление свечения при наведении */
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
