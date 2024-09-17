@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Underdog', cursive;
+}
+
+body {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+#nickname {
+    font-size: 48px;
+    color: #333;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.links .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.links .button:hover {
+    background-color: #45a049;
+}
+
+.projects {
+    margin-top: 40px;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project .button {
+    background-color: #2196F3;
+}
+
+.project .button:hover {
+    background-color: #0b7dda;
+}
