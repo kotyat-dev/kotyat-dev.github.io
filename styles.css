@@ -20,32 +20,73 @@ header {
     font-size: 128px;
     color: #64B5F6;
     font-weight: bold;
-    text-shadow: 0 0 15px rgba(100, 181, 246, 0.7); /* Glow эффект для текста */
+    text-shadow: 0 -256px 256px rgba(100, 181, 246, 0.7);
+    transition: text-shadow 1s ease;
+}
+
+#nickname:hover {
+    text-shadow: 0 0 48px rgba(100, 181, 246, 1);
 }
 
 .description {
     margin-bottom: 30px;
     font-size: 22px;
     color: #A0A0A0;
-    text-shadow: 0 0 10px rgba(160, 160, 160, 0.6); /* Glow эффект для описания */
+    text-shadow: 0 0 24px rgba(160, 160, 160, 1);
 }
 
 .links .button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #03DAC6;
+    background-color: #0000ff;
     color: #121212;
     text-decoration: none;
     border-radius: 5px;
     margin: 10px;
     font-size: 18px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 0 15px rgba(3, 218, 198, 0.5); /* Glow эффект */
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 0px rgba(0, 0, 255, 0.2);
+}
+
+.links .button_yt {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff0000;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 0px rgba(255, 0, 0, 0.2);
+}
+
+.links .button_tt {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 18px;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 0px rgba(255,255,255, 0.2);
 }
 
 .links .button:hover {
-    background-color: #00BFA5;
-    box-shadow: 0 0 25px rgba(3, 218, 198, 0.8); /* Усиление свечения при наведении */
+    background-color: #0000ff;
+    box-shadow: 0 0 30px rgba(0, 0, 255, 1);
+}
+
+.links .button_yt:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 1);
+}
+
+.links .button_tt:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(255,255,255, 1);
 }
 
 .projects {
@@ -89,13 +130,13 @@ header {
     border-radius: 5px;
     margin: 10px;
     font-size: 18px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 0 15px rgba(3, 218, 198, 0.5); /* Glow эффект */
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 0 0px rgba(3, 218, 198, 0.5); /* Glow эффект */
 }
 
 .project .button:hover {
     background-color: #00BFA5;
-    box-shadow: 0 0 25px rgba(3, 218, 198, 0.8); /* Усиление свечения при наведении */
+    box-shadow: 0 0 30px rgba(3, 218, 198, 0.8); /* Усиление свечения при наведении */
 }
 
 .project-img {
