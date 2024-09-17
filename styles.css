@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Underdog', cursive;
+    font-family: 'Underdog', sans-serif;
 }
 
 body {
-    background-color: #f4f4f9;
+    background-color: #121212;
+    color: #E0E0E0;
     text-align: center;
     padding: 20px;
 }
@@ -17,48 +18,21 @@ header {
 
 #nickname {
     font-size: 48px;
-    color: #333;
-}
-
-/* Window-style "About Me" section */
-.about-me-window {
-    width: 300px;
-    margin: 0 auto;
-    background-color: #e0e0e0;
-    border: 2px solid #000;
-    box-shadow: 4px 4px 0 #888;
-    margin-bottom: 40px;
-}
-
-.window-header {
-    background-color: #0078d7;
-    color: white;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16px;
-}
-
-.window-header .close-btn {
-    cursor: pointer;
-    padding: 2px 8px;
-    background-color: #ff5f57;
-    border-radius: 50%;
+    color: #BB86FC;
     font-weight: bold;
 }
 
-.window-content {
-    padding: 20px;
-    font-size: 16px;
-    text-align: left;
+.description {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #A0A0A0;
 }
 
 .links .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #03DAC6;
+    color: #121212;
     text-decoration: none;
     border-radius: 5px;
     margin: 10px;
@@ -66,7 +40,7 @@ header {
 }
 
 .links .button:hover {
-    background-color: #45a049;
+    background-color: #00BFA5;
 }
 
 .projects {
@@ -76,6 +50,7 @@ header {
 .projects h2 {
     margin-bottom: 20px;
     font-size: 32px;
+    color: #E0E0E0;
 }
 
 .project {
@@ -85,12 +60,14 @@ header {
 .project h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #BB86FC;
 }
 
 .project .button {
-    background-color: #2196F3;
+    background-color: #03DAC6;
 }
 
 .project .button:hover {
-    background-color: #0b7dda;
+    background-color: #00BFA5;
 }
+
