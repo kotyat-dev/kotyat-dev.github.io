@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kotyat_dev site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>kotyat_dev</h1>
+        <nav>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#" onclick="showModal('aboutModal')">Обо мне</a></li>
+                <li><a href="#" onclick="showModal('projectsModal')">Проекты</a></li>
+                <li><a href="#" onclick="showModal('contactModal')">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="terminal">
+        <div id="terminal-output"></div>
+        <div class="cursor">|</div>
+    </div>
+
+    <!-- Модальные окна -->
+    <div class="modal" id="aboutModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('aboutModal')">&times;</span>
+            <h2>Обо мне</h2>
+            <p>Умею делать сайты и игры. А это собственно HTML, CSS, JavaScript. Учу C#. Знаю GML.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="projectsModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('projectsModal')">&times;</span>
+            <h2>Проекты</h2>
+            <p>Здесь будет информация о моих проектах.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="contactModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('contactModal')">&times;</span>
+            <h2>Контакты</h2>
+        <p>Email: example@example.com (Потом напишу)</p>
+        <p>Discord: kotyat_dev</p>
+        <p>Youtube: <a href="https://www.youtube.com/channel/UCi1sE7X3O5m-JIS_MrXfuNw">Мой ютуб канал</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
